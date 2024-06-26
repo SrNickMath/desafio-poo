@@ -15,19 +15,19 @@ Com base no vídeo de lançamento do iPhone de 2007 (link abaixo), elaborei a di
 
 ```mermaid
 classDiagram
-    class equipamentos.reprodutor.ReprodutorMusical {
+    class ReprodutorMusical {
         +tocar()
         +pausar()
         +selecionarMusica(String musica)
     }
 
-    class equipamentos.telefone.AparelhoTelefonico {
+    class AparelhoTelefonico {
         +ligar(String numero)
         +atender()
         +iniciarCorreioVoz()
     }
 
-    class equipamentos.navegador.NavegadorInternet {
+    class NavegadorInternet {
         +exibirPagina(String url)
         +adicionarNovaAba()
         +atualizarPagina()
@@ -36,7 +36,7 @@ classDiagram
     class iPhone {
     }
 
-    iPhone --> equipamentos.reprodutor.ReprodutorMusical
-    iPhone --> equipamentos.telefone.AparelhoTelefonico
-    iPhone --> equipamentos.navegador.NavegadorInternet
+    iPhone --> ReprodutorMusical
+    iPhone --> AparelhoTelefonico
+    iPhone --> NavegadorInternet
 ```
