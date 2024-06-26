@@ -1,4 +1,4 @@
-package reprodutor;
+package equipamentos.reprodutor;
 
 public interface ReprodutorMusical {
 

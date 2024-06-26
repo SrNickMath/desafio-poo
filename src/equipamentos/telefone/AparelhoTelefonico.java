@@ -1,4 +1,4 @@
-package telefone;
+package equipamentos.telefone;
 
 public interface AparelhoTelefonico {
 
