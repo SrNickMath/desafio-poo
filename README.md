@@ -2,7 +2,7 @@
 
 ### Modelagem e Diagramação de um Componente iPhone
 
-Neste desafio, fui responsável por modelar e diagramar a representação UML do componente iPhone, abrangendo suas funcionalidades como equipamentos.reprodutor.Reprodutor Musical, Aparelho Telefônico e equipamentos.navegador.Navegador na Internet.
+Neste desafio, fui responsável por modelar e diagramar a representação UML do componente iPhone, abrangendo suas funcionalidades como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet.
 
 #### Contexto
 Com base no vídeo de lançamento do iPhone de 2007 (link abaixo), elaborei a diagramação das classes e interfaces utilizando `Mermaid`. Em seguida, implementei as classes e interfaces no formato de arquivos `.java`.
